@@ -9,6 +9,8 @@
 
 Claude Code 是 Anthropic 官方推出的命令行 AI 编程助手，但在中国大陆网络环境下，默认安装和使用会遇到**网络连接失败**、**API 访问超时**、**依赖安装缓慢**等诸多问题。
 
+![Claude Code 运行截图](docs/images/claude-code-screenshot.png)
+
 本项目提供了一套**开箱即用**的解决方案：
 - ✅ 自动检测系统环境
 - ✅ 配置国内镜像源 / 代理
