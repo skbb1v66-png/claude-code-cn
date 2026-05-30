@@ -34,11 +34,11 @@
 
 ```powershell
 # 在线安装
-irm https://raw.githubusercontent.com/skbb1v66-png/claude-code-china-setup/main/setup/install_claude_windows.ps1 | iex
+irm https://raw.githubusercontent.com/skbb1v66-png/claude-code-cn/main/setup/install_claude_windows.ps1 | iex
 
 # 或克隆后安装
-git clone https://github.com/skbb1v66-png/claude-code-china-setup.git
-cd claude-code-china-setup
+git clone https://github.com/skbb1v66-png/claude-code-cn.git
+cd claude-code-cn
 .\setup\install_claude_windows.ps1
 ```
 
@@ -46,8 +46,8 @@ cd claude-code-china-setup
 
 ```bash
 # 克隆仓库
-git clone https://github.com/skbb1v66-png/claude-code-china-setup.git
-cd claude-code-china-setup
+git clone https://github.com/skbb1v66-png/claude-code-cn.git
+cd claude-code-cn
 
 # 执行安装
 chmod +x setup/install_claude_wsl.sh

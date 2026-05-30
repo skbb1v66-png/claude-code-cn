@@ -265,4 +265,4 @@ npm install -g @anthropic-ai/claude-code
 
 ---
 
-> 如果以上内容没有解决你的问题，请 [提交 Issue](https://github.com/skbb1v66-png/claude-code-china-setup/issues/new)。
+> 如果以上内容没有解决你的问题，请 [提交 Issue](https://github.com/skbb1v66-png/claude-code-cn/issues/new)。

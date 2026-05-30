@@ -441,5 +441,5 @@ claude
 ## 获取更多帮助
 
 - 查看 [常见问题](faq.md)
-- [提交 Issue](https://github.com/skbb1v66-png/claude-code-china-setup/issues/new)
+- [提交 Issue](https://github.com/skbb1v66-png/claude-code-cn/issues/new)
 - 搜索相似问题

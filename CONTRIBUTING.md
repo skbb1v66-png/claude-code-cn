@@ -6,7 +6,7 @@
 
 ### 🐛 报告 Bug
 
-如果你遇到了问题，请 [提交 Issue](https://github.com/skbb1v66-png/claude-code-china-setup/issues/new) 并包含：
+如果你遇到了问题，请 [提交 Issue](https://github.com/skbb1v66-png/claude-code-cn/issues/new) 并包含：
 
 - 操作系统版本
 - Node.js / npm 版本
@@ -38,7 +38,7 @@
 ### 项目结构
 
 ```
-claude-code-china-setup/
+claude-code-cn/
 ├── setup/          # 安装脚本
 ├── scripts/        # 工具脚本
 ├── docs/           # 文档

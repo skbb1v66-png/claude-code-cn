@@ -288,7 +288,7 @@ function Main {
     Write-Color "║     Claude Code 中国安装脚本 v1.0               ║" Cyan
     Write-Color "║     适用于 Windows PowerShell 5.1+              ║" Cyan
     Write-Color "╚══════════════════════════════════════════════════╝" Cyan
-    Write-Color "  项目: https://github.com/skbb1v66-png/claude-code-china-setup" DarkGray
+    Write-Color "  项目: https://github.com/skbb1v66-png/claude-code-cn" DarkGray
 
     # 管理员检测
     if (-not (Test-Administrator)) {
