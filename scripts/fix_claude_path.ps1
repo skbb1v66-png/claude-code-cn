@@ -19,9 +19,9 @@
 .PARAMETER All
     执行所有修复（默认）
 .EXAMPLE
-    .\fix_path.ps1                                # 执行全部修复
-    .\fix_path.ps1 -FixPath                        # 仅修复 PATH
-    .\fix_path.ps1 -SetProxy -ProxyUrl "http://127.0.0.1:7890"  # 设置代理
+    .\fix_claude_path.ps1                                # 执行全部修复
+    .\fix_claude_path.ps1 -FixPath                        # 仅修复 PATH
+    .\fix_claude_path.ps1 -SetProxy -ProxyUrl "http://127.0.0.1:7890"  # 设置代理
 #>
 
 param(
@@ -118,7 +118,7 @@ function Repair-Path {
     catch {
         Write-Warn "claude 命令未找到，请确认是否已安装 @anthropic-ai/claude-code"
         Write-Color "  安装命令: npm install -g @anthropic-ai/claude-code" Yellow
-        Write-Color "  或使用安装脚本: .\setup\install_windows.ps1" Yellow
+        Write-Color "  或使用安装脚本: .\setup\install_claude_windows.ps1" Yellow
     }
 
     return $fixed

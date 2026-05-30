@@ -34,24 +34,24 @@
 
 ```powershell
 # 在线安装
-irm https://raw.githubusercontent.com/yourname/claude-code-china-setup/main/setup/install_windows.ps1 | iex
+irm https://raw.githubusercontent.com/skbb1v66-png/claude-code-china-setup/main/setup/install_claude_windows.ps1 | iex
 
 # 或克隆后安装
-git clone https://github.com/yourname/claude-code-china-setup.git
+git clone https://github.com/skbb1v66-png/claude-code-china-setup.git
 cd claude-code-china-setup
-.\setup\install_windows.ps1
+.\setup\install_claude_windows.ps1
 ```
 
 #### WSL / Linux
 
 ```bash
 # 克隆仓库
-git clone https://github.com/yourname/claude-code-china-setup.git
+git clone https://github.com/skbb1v66-png/claude-code-china-setup.git
 cd claude-code-china-setup
 
 # 执行安装
-chmod +x setup/install_wsl.sh
-./setup/install_wsl.sh
+chmod +x setup/install_claude_wsl.sh
+./setup/install_claude_wsl.sh
 ```
 
 ### 方式二：手动安装
@@ -100,7 +100,7 @@ claude --version
 mkdir -p ~/.claude
 
 # 复制模板
-cp setup/config.template.json ~/.claude/settings.json
+cp setup/claude_config.template.json ~/.claude/settings.json
 
 # 编辑配置文件，填入你的 API Key
 vim ~/.claude/settings.json
@@ -183,6 +183,6 @@ claude --test-api
 
 ## 下一步
 
-- 阅读 [故障排除](troubleshooting.md) 了解常见问题
+- 阅读 [故障排除](troubleshooting_guide.md) 了解常见问题
 - 查看 [常见问题](faq.md) 获取更多帮助
-- 配置 [MCP 服务器](../scripts/mcp_install.ps1) 扩展功能
+- 配置 [MCP 服务器](../scripts/install_mcp_tools.ps1) 扩展功能

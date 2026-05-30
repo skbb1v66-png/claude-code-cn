@@ -288,7 +288,7 @@ function Main {
     Write-Color "║     Claude Code 中国安装脚本 v1.0               ║" Cyan
     Write-Color "║     适用于 Windows PowerShell 5.1+              ║" Cyan
     Write-Color "╚══════════════════════════════════════════════════╝" Cyan
-    Write-Color "  项目: https://github.com/yourname/claude-code-china-setup" DarkGray
+    Write-Color "  项目: https://github.com/skbb1v66-png/claude-code-china-setup" DarkGray
 
     # 管理员检测
     if (-not (Test-Administrator)) {
@@ -330,8 +330,8 @@ function Main {
     Test-Installation
 
     Write-Color "`n📚 更多帮助：" Cyan
-    Write-Color "  - 安装指南: docs/install.md" DarkGray
-    Write-Color "  - 故障排除: docs/troubleshooting.md" DarkGray
+    Write-Color "  - 安装指南: docs/installation_guide.md" DarkGray
+    Write-Color "  - 故障排除: docs/troubleshooting_guide.md" DarkGray
     Write-Color "  - 常见问题: docs/faq.md" DarkGray
     Write-Color "`n💡 提示：如果遇到任何问题，请重新打开终端窗口后重试。`n" Yellow
 }

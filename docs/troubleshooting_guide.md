@@ -170,7 +170,7 @@ claude : 无法将 "claude" 项识别为 cmdlet、函数、脚本文件或可运
 **解决方案：**
 ```bash
 # 1) 运行修复脚本
-.\scripts\fix_path.ps1
+.\scripts\fix_claude_path.ps1
 
 # 2) 手动添加 PATH
 # PowerShell:
@@ -441,5 +441,5 @@ claude
 ## 获取更多帮助
 
 - 查看 [常见问题](faq.md)
-- [提交 Issue](https://github.com/yourname/claude-code-china-setup/issues/new)
+- [提交 Issue](https://github.com/skbb1v66-png/claude-code-china-setup/issues/new)
 - 搜索相似问题

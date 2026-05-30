@@ -5,8 +5,8 @@
 # 功能：在中国大陆网络环境下自动安装 Claude Code CLI
 # 适用系统：Ubuntu 20.04+, Debian 11+, WSL 2
 # 用法：
-#   chmod +x install_wsl.sh
-#   ./install_wsl.sh
+#   chmod +x install_claude_wsl.sh
+#   ./install_claude_wsl.sh
 # =============================================================================
 
 set -e
@@ -263,8 +263,8 @@ fi
 
 echo ""
 echo -e "${CYAN}📚 更多帮助：${NC}"
-echo "  - 安装指南: docs/install.md"
-echo "  - 故障排除: docs/troubleshooting.md"
+echo "  - 安装指南: docs/installation_guide.md"
+echo "  - 故障排除: docs/troubleshooting_guide.md"
 echo "  - 常见问题: docs/faq.md"
 echo ""
 echo -e "${YELLOW}💡 提示：如果遇到任何问题，请重新打开终端后重试。${NC}"

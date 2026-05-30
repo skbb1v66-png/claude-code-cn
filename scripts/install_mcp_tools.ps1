@@ -15,10 +15,10 @@
 .PARAMETER UpdateConfig
     仅更新 settings.json 中的配置（不安装）
 .EXAMPLE
-    .\mcp_install.ps1 -List                         # 列出可用 MCP 服务器
-    .\mcp_install.ps1 -Install "filesystem","github" # 安装指定服务器
-    .\mcp_install.ps1 -All                           # 安装全部推荐服务器
-    .\mcp_install.ps1 -Remove "filesystem"           # 移除服务器
+    .\install_mcp_tools.ps1 -List                         # 列出可用 MCP 服务器
+    .\install_mcp_tools.ps1 -Install "filesystem","github" # 安装指定服务器
+    .\install_mcp_tools.ps1 -All                           # 安装全部推荐服务器
+    .\install_mcp_tools.ps1 -Remove "filesystem"           # 移除服务器
 #>
 
 param(
@@ -403,12 +403,12 @@ if ($Install.Count -gt 0) {
 Show-MCPList
 Write-Color "`n💡 用法示例：" Cyan
 Write-Color "  # 列出所有 MCP 服务器" DarkGray
-Write-Color "  .\mcp_install.ps1 -List" DarkGray
+Write-Color "  .\install_mcp_tools.ps1 -List" DarkGray
 Write-Color "  # 安装指定服务器" DarkGray
-Write-Color "  .\mcp_install.ps1 -Install filesystem,github" DarkGray
+Write-Color "  .\install_mcp_tools.ps1 -Install filesystem,github" DarkGray
 Write-Color "  # 安装全部" DarkGray
-Write-Color "  .\mcp_install.ps1 -All" DarkGray
+Write-Color "  .\install_mcp_tools.ps1 -All" DarkGray
 Write-Color "  # 从配置中移除" DarkGray
-Write-Color "  .\mcp_install.ps1 -Remove filesystem" DarkGray
+Write-Color "  .\install_mcp_tools.ps1 -Remove filesystem" DarkGray
 Write-Color "  # 自动检测并更新配置" DarkGray
-Write-Color "  .\mcp_install.ps1 -UpdateConfig" DarkGray
+Write-Color "  .\install_mcp_tools.ps1 -UpdateConfig" DarkGray

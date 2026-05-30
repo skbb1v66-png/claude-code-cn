@@ -171,6 +171,6 @@ try {
 catch {
     Write-Color "`n❌ 启动失败：claude 命令未找到" Red
     Write-Color "   请确认已安装 @anthropic-ai/claude-code" Yellow
-    Write-Color "   或运行 fix_path.ps1 修复 PATH" Yellow
+    Write-Color "   或运行 fix_claude_path.ps1 修复 PATH" Yellow
     pause
 }
